@@ -1,0 +1,217 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    height: 65px;
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(124, 124, 124, 0.5);
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.nav-kiri {
+    float: left;
+}
+.nav-kiri .user{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(124, 124, 124);
+    padding: 10px 12px;
+    border-radius: 15px;
+}
+.user p{
+    color: white;
+}
+  
+.nav-kanan {
+    float: right;
+    font-weight: bold;
+}
+.nav-kanan li {
+    display: block;
+    border-radius: 15px;
+    float: left;
+    transition: all 0.5s;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.nav-kanan li a{
+    text-decoration: none;
+    color: white; 
+}
+.asik{
+    background-color: rgb(92, 92, 92);
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.asik:hover{
+    opacity: 0.6;
+}
+.beda{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.beda:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: rgb(112, 112, 112);
+}
+/* ================================================================= */
+.contents{
+    background-image: url(img//latar2.png);
+    background-size: cover;
+    padding: 100px;
+    /* border: 1px solid red; */
+}
+
+.file {
+    padding: 20px 30px;
+    background-color: rgba(209, 209, 209, 0.5);
+    backdrop-filter: blur(2rem);
+    border-radius: 15px ;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.8);
+    /* border: 1px solid red; */
+}
+.profile img{
+    width:150px;
+    height:200px;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: left;
+}
+.desc {
+    margin-top: 10px ;
+    margin-bottom: 50px;
+}
+.report p{
+    margin: 5px 0;
+}
+.report table{
+    border-collapse: collapse;
+    border: 1px solid #f2f5f7;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(36, 54, 56);
+    margin-top: 10px;
+}
+.report tr th{
+    background: rgb(41, 71, 82);
+}
+.report th,td{
+    padding: 8px 20px;
+}
+/* .report td:nth-child(even){
+    background: rgb(85, 85, 85);
+} */
+.abs table{
+    border-collapse: collapse;
+    border: 1px solid #f2f5f7;
+    width: 30%;
+    color: #fff;
+    background-color: rgb(36, 54, 56);
+    margin-top: 10px;
+}
+.abs tr th{
+    background: rgb(41, 71, 82);
+}
+.abs th,td{
+    padding: 8px 20px;
+}
+/* .abs tr:nth-child(even){
+    background: rgb(85, 85, 85);
+} */
+/* tbk */
+.tbl-class {
+    text-align: right;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .signin {
+  background:rgba(15, 158, 115, 1) ;
+  /* box-shadow: 0 5px #145c31; */
+  text-decoration: none;
+  margin-right: 50px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  }
+  
+  .tbl {
+    padding: 8px 60px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    /* text-align: center; */
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0,25s;
+  }
+  
+  .tbl:hover {
+    opacity: 0.5;
+    color: black;
+  }
+  /* ================================= */
+  footer{
+    background-color: #032fa775;
+  }
+  .logoo{
+    width: 350px;
+    padding-top: 5px; 
+    padding-left: 30px;
+    padding-bottom: 0px; 
+    display: flex;
+    float: left;
+  }
+  .logoo img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .namee h2 {
+    letter-spacing: 3px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+  } 
+  .wa {
+    float: right;
+    margin-top: 5px;
+  
+  }
+  .wa img{
+    width: 30px;
+    height: 30px;
+  }
+  .wa a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    padding-right: 30px;
+  }
+  .namee p{
+    margin-bottom: -20px;
+    font-size: 13px;
+  }
+  .copyrigh{
+    padding-top: 50px;
+  }

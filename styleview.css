@@ -1,0 +1,322 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    height: 65px;
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(124, 124, 124, 0.5);
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.nav-kiri {
+    float: left;
+}
+.nav-kiri .user{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(124, 124, 124);
+    padding: 10px 12px;
+    border-radius: 15px;
+}
+.user p{
+    color: white;
+}
+  
+.nav-kanan {
+    float: right;
+    font-weight: bold;
+}
+.nav-kanan li {
+    display: block;
+    border-radius: 15px;
+    float: left;
+    transition: all 0.5s;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.nav-kanan li a{
+    text-decoration: none;
+    color: white; 
+}
+.asik{
+    background-color: rgb(92, 92, 92);
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.asik:hover{
+    opacity: 0.6;
+}
+.beda{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.beda:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: rgb(112, 112, 112);
+}
+/* ================================================================= */
+
+.top-connten {
+  padding: 80px 0 0 0;
+  background-image: url(img/bglayar.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px 3px  #000000;
+}
+  
+.top-connten h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 7px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+  
+.top-connten p {
+  opacity: 0.8;
+  margin-top: 70px;
+  font-size: 25px;
+  text-align: center;
+  }
+/* for more */
+.btn-info {
+  height: 230px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+.btn-info h3 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: rgb(222, 222, 222);
+  font-weight: bold;
+}
+.btn-info h4 {
+  margin-top: 10px;
+  color: rgb(222, 222, 222);
+  font-weight: bold;
+  }
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin:0 160px;
+  }
+.icon {
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  opacity: 0.9;
+  display: flex;
+  }
+.icon img{
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -7px;
+  margin-left: 15px;
+}
+.icon a{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.text a{
+  display: inline-block;
+  height: 35px;
+  width: 200px;
+  padding-top: 13px;
+} 
+.fb {
+  background-color: #3B5998;
+} 
+
+.ig {
+  background-color: #FB8800;
+  margin:0px 20px;
+}
+
+.yt {
+  background-color: #E23131;
+} 
+.icon:hover {
+  opacity: 1;
+  border: 2px solid white;
+}
+/* Student Activities */
+.pg{
+  padding-bottom: 600px;
+  background-image: url(img//latar2.png);
+  background-size: cover;
+  /* border: 1px solid red; */
+
+}
+.sa {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.inbox {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
+.inbox .page{
+  width: 300px;
+  height: 320px;
+  position: relative;
+  margin: 30px 30px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  margin-top: 5%;
+  background-color: rgba(209, 209, 209, 0.5);
+  border-radius:15px;
+  backdrop-filter: blur (1rem);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  margin-bottom: 70px;
+
+}
+.inbox .page .animation{
+  position: absolute;
+  width:190px;
+  height: 210px;
+  top: -100px;
+  left: 70px;
+  border-radius: 15px;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 1.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  align-items: center;
+}
+.inbox .page .animation img{
+  max-width: 100%;
+  height: 200px;
+  width: 180px;
+  border-radius: 15px;
+  transition: 0.30s;
+}
+.animation{
+  /* border: 4px solid rgb(96, 96, 96); */
+  transition: 0.30s;
+  display: flex;
+}
+.animation:hover {
+  transform: scale(1.1);
+}
+.cptn {
+  padding-top: 120px;
+}
+.cptn h3{
+  text-align: center;
+  font-size: 20px;
+}
+.cptn p{
+  padding-top: 5px;
+}
+/* tbl */
+.tbl-class {
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.signin {
+background:rgba(15, 158, 115, 1) ;
+/* box-shadow: 0 5px #145c31; */
+text-decoration: none;
+margin-right: 50px;
+font-weight: bold;
+letter-spacing: 4px;
+}
+
+.tbl {
+  padding: 8px 100px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0,25s;
+}
+
+.tbl:hover {
+  opacity: 0.5;
+  color: black;
+}
+/* ============================================================ */
+footer{
+  background-color: #032fa775;
+}
+.logoo{
+  width: 350px;
+  padding-top: 5px; 
+  padding-left: 30px;
+  padding-bottom: 0px; 
+  display: flex;
+  float: left;
+}
+.logoo img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.namee h2 {
+  letter-spacing: 3px;
+  padding-left: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+} 
+.wa {
+  float: right;
+  margin-top: 5px;
+
+}
+.wa img{
+  width: 30px;
+  height: 30px;
+}
+.wa a{
+  text-decoration: none;
+  /* border: 1px solid red; */
+  padding-right: 30px;
+}
+.namee p{
+  margin-bottom: -20px;
+  font-size: 13px;
+}
+.copyrigh{
+  padding-top: 50px;
+}
+/* ========================================================= */
